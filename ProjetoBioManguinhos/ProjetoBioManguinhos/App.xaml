@@ -2,31 +2,27 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoBioManguinhos.App">
-    <!--
-        Define global resources and styles here, that apply to all pages in your app.
-    -->
     <Application.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Primary">#2196F3</Color>
-            <Style TargetType="Button">
-                <Setter Property="TextColor" Value="White"></Setter>
-                <Setter Property="VisualStateManager.VisualStateGroups">
-                    <VisualStateGroupList>
-                        <VisualStateGroup x:Name="CommonStates">
-                            <VisualState x:Name="Normal">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
-                                </VisualState.Setters>
-                            </VisualState>
-                            <VisualState x:Name="Disabled">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="#332196F3" />
-                                </VisualState.Setters>
-                            </VisualState>
-                        </VisualStateGroup>
-                    </VisualStateGroupList>
-                </Setter>
-            </Style>
-        </ResourceDictionary>        
+        <Color x:Key="BlueThemeColor">#007DB6</Color>
+        <Color x:Key="WhiteThemeColor">#FFFFFF</Color>
+        <Color x:Key="GreyThemeColor">#2C2C2C</Color>
+
+        <Style x:Key="Themes" TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource WhiteThemeColor}, Dark={StaticResource GreyThemeColor}}"/>
+        </Style>
+
+        <Style x:Key="TextColors" TargetType="Label">
+            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource BlueThemeColor}, Dark={StaticResource WhiteThemeColor}}"/>
+        </Style>
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource BlueThemeColor}, Dark={StaticResource WhiteThemeColor}}"/>
+            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource WhiteThemeColor}, Dark={StaticResource BlueThemeColor}}"/>
+            <Setter Property="Text" Value="{AppThemeBinding Light={StaticResource WhiteThemeColor}, Dark={StaticResource BlueThemeColor}}"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="Padding" Value="125, 0"/>
+            <Setter Property="CornerRadius" Value="5"/>
+        </Style>
     </Application.Resources>
 </Application>

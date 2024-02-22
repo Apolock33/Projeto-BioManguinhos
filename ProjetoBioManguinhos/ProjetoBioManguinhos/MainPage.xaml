@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoBioManguinhos.MainPage"
+             Style="{StaticResource Themes}">
+    <Grid>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="LOGO" FontSize="50" FontAttributes="Bold" Style="{StaticResource TextColors}" HorizontalOptions="Center" />
+            <Frame BackgroundColor="Transparent" Margin="20">
+                <StackLayout>
+                    <Label Text="LogIn" Style="{StaticResource TextColors}" FontSize="Large" FontAttributes="Bold" HorizontalOptions="StartAndExpand" />
+                    <Entry x:Name="TXTLogin" Keyboard="Chat" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                    <Label Text="Senha" Style="{StaticResource TextColors}" FontSize="Large" FontAttributes="Bold" HorizontalOptions="StartAndExpand" Margin="0, 30, 0, 0"/>
+                    <Entry x:Name="TXTPassword" Keyboard="Chat" ReturnType="Done" IsPassword="True" ClearButtonVisibility="WhileEditing"/>
+                </StackLayout>
+            </Frame>
+            <StackLayout>
+                <Button x:Name="BTNLogin" Text="Entrar" Style="{StaticResource ButtonStyle}" Margin="40, 0" Clicked="Btn_Entrar_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+
+        <BoxView x:Name="BVTelaPreta" Color="Black" Opacity="0.5" IsVisible="false"/>
+        <ActivityIndicator x:Name="ACTRoda" Color="white" IsVisible="false" IsRunning="False" Scale="0.2"/>
+    </Grid>
+</ContentPage>

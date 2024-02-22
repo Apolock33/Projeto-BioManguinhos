@@ -1,6 +1,4 @@
-﻿using ProjetoBioManguinhos.Services;
-using ProjetoBioManguinhos.Views;
-using System;
+﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,13 +6,11 @@ namespace ProjetoBioManguinhos
 {
     public partial class App : Application
     {
-
         public App()
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
