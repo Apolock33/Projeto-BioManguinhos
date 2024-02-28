@@ -17,6 +17,7 @@ namespace ProjetoBioManguinhos.Pages
             InitializeComponent();
 
             BindingContext = this;
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

@@ -67,6 +67,28 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Montserrat-Italic-VariableFont_wght.ttf" />
+    <None Include="Assets\Montserrat-VariableFont_wght.ttf" />
+    <None Include="Assets\Montserrat-Black.ttf" />
+    <None Include="Assets\Montserrat-BlackItalic.ttf" />
+    <None Include="Assets\Montserrat-Bold.ttf" />
+    <None Include="Assets\Montserrat-BoldItalic.ttf" />
+    <None Include="Assets\Montserrat-ExtraBold.ttf" />
+    <None Include="Assets\Montserrat-ExtraBoldItalic.ttf" />
+    <None Include="Assets\Montserrat-ExtraLight.ttf" />
+    <None Include="Assets\Montserrat-ExtraLightItalic.ttf" />
+    <None Include="Assets\Montserrat-Italic.ttf" />
+    <None Include="Assets\Montserrat-Light.ttf" />
+    <None Include="Assets\Montserrat-LightItalic.ttf" />
+    <None Include="Assets\Montserrat-Medium.ttf" />
+    <None Include="Assets\Montserrat-MediumItalic.ttf" />
+    <None Include="Assets\Montserrat-Regular.ttf" />
+    <None Include="Assets\Montserrat-SemiBold.ttf" />
+    <None Include="Assets\Montserrat-SemiBoldItalic.ttf" />
+    <None Include="Assets\Montserrat-Thin.ttf" />
+    <None Include="Assets\Montserrat-ThinItalic.ttf" />
+    <None Include="Assets\Rock.ttf" />
+    <None Include="Assets\Rockwell-Bold.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -87,14 +109,15 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ProjetoBioManguinhos\ProjetoBioManguinhos.csproj">
       <Project>{583E6666-88FA-4233-B151-0EFC2495537A}</Project>
       <Name>ProjetoBioManguinhos</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\drawable\ic_home.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

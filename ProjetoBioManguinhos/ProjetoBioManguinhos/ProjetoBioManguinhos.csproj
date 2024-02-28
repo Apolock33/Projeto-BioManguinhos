@@ -16,6 +16,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Resources\ic_home.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\ic_home.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
     <PackageReference Include="LiveXAML" Version="2.1.73" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
@@ -23,11 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="Pages\HomePage.xaml">
+    <EmbeddedResource Update="Views\HomePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
