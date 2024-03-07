@@ -547,11 +547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj",
       "projectName": "ProjetoBioManguinhos",
-      "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj",
+      "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos\\obj\\",
+      "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

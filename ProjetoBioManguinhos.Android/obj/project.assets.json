@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.Android\\ProjetoBioManguinhos.Android.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos.Android\\ProjetoBioManguinhos.Android.csproj",
       "projectName": "ProjetoBioManguinhos.Android",
-      "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.Android\\ProjetoBioManguinhos.Android.csproj",
+      "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos.Android\\ProjetoBioManguinhos.Android.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.Android\\obj\\",
+      "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj": {
-              "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj"
+            "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj": {
+              "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj"
             }
           }
         }

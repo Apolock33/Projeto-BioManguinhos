@@ -5,7 +5,12 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoBioManguinhos.Android", "ProjetoBioManguinhos.Android\ProjetoBioManguinhos.Android.csproj", "{05343DCE-3B9E-4D45-B0D8-D679058812A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoBioManguinhos", "ProjetoBioManguinhos\ProjetoBioManguinhos.csproj", "{468A0E98-1D95-482E-886D-EAD102DD359B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoBioManguinhos", "ProjetoBioManguinhos\ProjetoBioManguinhos.csproj", "{468A0E98-1D95-482E-886D-EAD102DD359B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{AE6F6365-0369-4E8C-9448-4D675965E55F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

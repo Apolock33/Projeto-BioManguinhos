@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O8HLWAqsDCCJZoJn0bjQesPwOCf26RE9ChMlUX055SEcopXdK2dPfSolscrdBcHUFmZE++sEye1RysZMlx4iMA==",
+  "dgSpecHash": "eS5DmmuR9Jvy/cn28NjWqIGycL180WU/8pJ8jiz/PRJZ79pndACrRAyjl3VauaJx5q3rieIrzoQx8Hhrf515Uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.Android\\ProjetoBioManguinhos.Android.csproj",
+  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos.Android\\ProjetoBioManguinhos.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
