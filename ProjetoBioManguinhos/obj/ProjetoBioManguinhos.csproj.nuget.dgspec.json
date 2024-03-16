@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj": {}
+    "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj",
         "projectName": "ProjetoBioManguinhos",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\ProjetoBioManguinhos.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projetos\\Pessoais\\Programação\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Projeto-BioManguinhos\\ProjetoBioManguinhos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

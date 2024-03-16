@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoBioManguinhos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f06a6e74e9118f5ae81f8b8141eb1bd77bcb20e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a634500eff5abf44424897f635242808bdc4e0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoBioManguinhos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoBioManguinhos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

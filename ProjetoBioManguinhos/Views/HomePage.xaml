@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="ProjetoBioManguinhos.Views.HomePage"
+            NavigationPage.HasNavigationBar="False"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            NavigationPage.IconColor="White"
+            BarBackgroundColor="{StaticResource BlueThemeColor}"
+            Padding="25">
+    <ContentPage IconImageSource="ic_home.png">
+        <StackLayout>
+            <Label Text="Estudos" Style="{StaticResource TextColors}" FontSize="40" FontAttributes="Bold" />
+
+            <SearchBar x:Name="SBBuscar" Placeholder="Digite o nome do estudo..." />
+            <ScrollView>
+                <CollectionView x:Name="CVLista" ItemsSource="{Binding Study}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="5">
+                                <Frame Style="{StaticResource FrameConfig}">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                                    </Frame.GestureRecognizers>
+                                    <StackLayout>
+                                        <Label Text="{Binding Title}" FontSize="20" Style="{StaticResource TextColors}" />
+                                        <Label Text="Nº de Sujeitos: N" Style="{StaticResource TextColors}"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage IconImageSource="ic_user.png" NavigationPage.HasNavigationBar="True">
+        <StackLayout>
+            <Label Text="Sujeitos" Style="{StaticResource TextColors}" FontSize="40" FontAttributes="Bold" />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage IconImageSource="ic_download.png">
+        <StackLayout>
+            <Label Text="Importar"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage IconImageSource="ic_upload.png">
+        <StackLayout>
+            <Label Text="Publicar"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
